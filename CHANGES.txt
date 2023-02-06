@@ -3,3 +3,6 @@
 
 0.1.1
 * Forgot a db-migration
+
+0.1.2
+* Return fullname instead of e-mail

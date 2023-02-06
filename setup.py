@@ -9,7 +9,7 @@ with open('README.rst', 'r') as readme:
 
 setup(
     name='django-cust-email-user',
-    version='0.1.1',
+    version='0.1.2',
     author='red-pepper-services',
     author_email='pypi@schiegg.at',
     url='https://github.com/red-pepper-services/django-emailuser',
