@@ -48,3 +48,6 @@ class User(AbstractUser):
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
+
+    def __str__(self):
+        return '%s %s' % (self.first_name, self.last_name) if self.last_name else self.email
